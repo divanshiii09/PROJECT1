@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    /*box-sizing property: content-box (default): width = content only | content + padding + border |
+
+    border-box: width = content + padding + border | fixed total width */
+
+    }
       h1 {
         background-color: lightcoral;
         /*border-style: solid;
@@ -21,6 +30,11 @@
         text-align: center;
         width:500px;
         /*height: 50px;*/
+        margin:25px;
+        /*padding: 20px 35px 10px 15px;*/
+        /*top right bottom left*/
+        padding: 20px 40px;
+        /*top-bottom right-left*/
       }
       .firstpara {
         background-color: burlywood;
@@ -28,6 +42,9 @@
         border-radius: 10px;
         text-align: center;
         width:500px;
+        padding: 10px;
+        margin: 10px 20px 30px;
+        /*top left&right bottom*/
       }
       .secondpara {
         background-color: darkseagreen;
@@ -35,6 +52,8 @@
         border-radius: 10px;
         text-align: center;
         width:500px;
+        padding: 10px;
+        margin:20px;
       }
       .thirdpara {
         background-color: lightslategrey;
@@ -42,6 +61,8 @@
         border-radius: 10px;
         text-align: center;
         width:500px;
+        padding: 10px;
+        margin:20px;
       }
       span{
         background-color: lightblue;
@@ -54,6 +75,8 @@
         as block allows new line and changes
            inline doesnot allow new line and changes
            inline block does not allow new line but allow changes*/
+        padding: 10px;
+        margin:20px;
       }
     </style>
   </head>
