@@ -1,31 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        h1{
-            background-color: lightcoral;
-        }
-        .firstpara{
-            background-color: burlywood;
-        }
-        .secondpara{
-            background-color: darkseagreen;
-        }
-        .thirdpara{
-            background-color: lightslategrey;
-        }
+      h1 {
+        background-color: lightcoral;
+        /*border-style: solid;
+            border-width: 2px;
+            border-color: brown;*/
+        /*border-bottom-left-radius: 10;*/
+        /*style-color-width*/
+        /*border-top: solid blue 4px;
+            border-right: dashed green 6px;
+            border-bottom: dotted purple 8px;
+            border-left: double orange 10px;*/
+        border: solid black 2px;
+        border-radius: 10px;
+        text-align: center;
+        width:500px;
+        /*height: 50px;*/
+      }
+      .firstpara {
+        background-color: burlywood;
+        border: solid black 2px;
+        border-radius: 10px;
+        text-align: center;
+        width:500px;
+      }
+      .secondpara {
+        background-color: darkseagreen;
+        border: solid black 2px;
+        border-radius: 10px;
+        text-align: center;
+        width:500px;
+      }
+      .thirdpara {
+        background-color: lightslategrey;
+        border: solid black 2px;
+        border-radius: 10px;
+        text-align: center;
+        width:500px;
+      }
+      span{
+        background-color: lightblue;
+        border: solid black 2px;
+        border-radius: 10px;
+        width:500px;
+        /*height: 50px;*/
+        display: inline-block;
+        /* span is inline and we cant set width and height so make it inline block
+        as block allows new line and changes
+           inline doesnot allow new line and changes
+           inline block does not allow new line but allow changes*/
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Divanshi Goyal</h1>
 
-    <p class="firstpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laudantium sint? Rerum, est molestias. Vel maxime ratione sit pariatur reprehenderit.</p>
+<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, dolore.</span>
 
-    <p class="secondpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quaerat eos et autem suscipit, error ducimus, soluta porro totam dolor ad voluptates dolorem cumque magnam delectus dolorum modi. Voluptatibus, accusamus?</p>
+    <p class="firstpara">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+      laudantium sint? Rerum, est molestias. Vel maxime ratione sit pariatur
+      reprehenderit.
+    </p>
 
-    <p class="thirdpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores incidunt iure modi quasi debitis atque quas, temporibus ipsa illum quibusdam animi beatae? Cum.</p>
-</body>
+    <p class="secondpara">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+      quaerat eos et autem suscipit, error ducimus, soluta porro totam dolor ad
+      voluptates dolorem cumque magnam delectus dolorum modi. Voluptatibus,
+      accusamus?
+    </p>
+
+    <p class="thirdpara">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+      incidunt iure modi quasi debitis atque quas, temporibus ipsa illum
+      quibusdam animi beatae? Cum.
+    </p>
+
+    <!-- box model-- rectangular box four boxs content <padding <border <margin -->
+  </body>
 </html>
