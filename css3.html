@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div{
+            border: 5px solid #000000;
+            border-radius: 20px;
+            margin: 10px;
+            height: 800px;
+        }
+        img{
+            border: 5px solid #000000;
+            border-radius: 20px;
+            margin: 10px;
+        }
+        .img2{
+            position: absolute;
+            top: 30px;
+            left: 30px;
+        }
+        .container{
+            position: relative;
+        }
+        .img4{
+            position: fixed;
+           
+        }
+        .img3{
+            position: sticky;
+            top: 100px;
+            /*when we scroll down 100px it will stick to the top and telling the position is must*/
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+    <img src="divanshi.jpg"
+    alt="poster 1"
+    width="300"
+    height="300"
+    class="img1">
+
+    <img src="download.png"
+    alt="poster 2"
+    width="300"
+    height="300"
+    class="img2">
+
+    <img src="divanshi.jpg"
+    alt="poster 3"
+    width="300"
+    height="300"
+    class="img3">
+
+    <img src="download.png"
+    alt="poster 4"
+    width="300"
+    height="300"
+    class="img4">
+    </div>
+    <!-- by default static position nhi kr skte top right left bottom
+     relative current window mai position kr skte hai using top right left bottom ans spacing is maintained 
+     absolute krne ke liye parent elemnt ko relative mark kro space preserve nhi hota
+     fixed does not move for all page
+     sticky- move outside parent container  -->
+</body>
+</html>
